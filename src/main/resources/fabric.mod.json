@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "guardvillagers-c2me-compat",
+	"version": "${version}",
+	"name": "guardvillagers-c2me-compat",
+	"description": "Fixes an issue where Guard Villager's villager convertion code breaks C2ME.",
+	"authors": [
+		"Fyoncle"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/guard-villagers-c2me-compat",
+		"sources": "https://github.com/Fyoncle/guard-villagers-c2me-compat"
+	},
+	"license": "MIT",
+	"icon": "assets/guardvillagers-c2me-compat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.fyoncle.GuardvillagersC2meCompat"
+		]
+	},
+	"mixins": [
+		"guardvillagers-c2me-compat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"guardvillagers": "*",
+		"c2me": "*"
+	}
+}

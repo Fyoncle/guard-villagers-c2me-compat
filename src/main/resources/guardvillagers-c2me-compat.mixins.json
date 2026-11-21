@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.fyoncle.guardvillagersc2mecompat.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"GuardVillagersEntityLoadSpawnMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
