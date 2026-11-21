@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "guardvillagers-c2me-compat",
 	"version": "${version}",
-	"name": "guardvillagers-c2me-compat",
+	"name": "Guard Villagers - C2ME Compat",
 	"description": "Fixes an issue where Guard Villager's villager convertion code breaks C2ME.",
 	"authors": [
 		"Fyoncle"
